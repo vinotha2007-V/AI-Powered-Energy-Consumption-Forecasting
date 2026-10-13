@@ -1,0 +1,232 @@
+{
+  "simulation_name": "Virtual 24-Hour Building Energy Planning Scenario",
+  "forecast_horizon_hours": 24,
+  "assumptions_and_inputs": {
+    "flat_tariff_usd_per_kwh": 0.18,
+    "tou_peak_tariff_usd_per_kwh": 0.28,
+    "tou_off_peak_tariff_usd_per_kwh": 0.12,
+    "tou_peak_hours_schedule": [
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "grid_carbon_intensity_kg_co2_per_kwh": 0.4,
+    "peak_demand_threshold_kwh": 2.0024,
+    "hypothetical_shaving_percentage": 15.0
+  },
+  "consumption_summary": {
+    "total_predicted_kwh": 36.9443,
+    "average_hourly_kwh": 1.5393,
+    "peak_hourly_kwh": 2.7648,
+    "minimum_hourly_kwh": 0.4395,
+    "peak_hours_count": 5
+  },
+  "cost_and_emissions_estimates": {
+    "estimated_cost_flat_tariff_usd": 6.65,
+    "estimated_cost_tou_tariff_usd": 6.42,
+    "estimated_carbon_emissions_kg_co2": 14.78
+  },
+  "hypothetical_shaving_scenario": {
+    "shaved_total_kwh": 34.7429,
+    "potential_kwh_reduced_or_shifted": 2.2014,
+    "potential_tou_cost_avoidance_usd": 0.56,
+    "potential_carbon_avoidance_kg_co2": 0.88
+  },
+  "hourly_schedule": [
+    {
+      "timestamp": "2010-11-26 22:00:00",
+      "hour": 22,
+      "forecast_kwh": 1.2176,
+      "is_peak_demand": false,
+      "is_tou_peak_rate": false,
+      "hourly_cost_tou": 0.1461
+    },
+    {
+      "timestamp": "2010-11-26 23:00:00",
+      "hour": 23,
+      "forecast_kwh": 0.8169,
+      "is_peak_demand": false,
+      "is_tou_peak_rate": false,
+      "hourly_cost_tou": 0.098
+    },
+    {
+      "timestamp": "2010-11-27 00:00:00",
+      "hour": 0,
+      "forecast_kwh": 0.4928,
+      "is_peak_demand": false,
+      "is_tou_peak_rate": false,
+      "hourly_cost_tou": 0.0591
+    },
+    {
+      "timestamp": "2010-11-27 01:00:00",
+      "hour": 1,
+      "forecast_kwh": 0.455,
+      "is_peak_demand": false,
+      "is_tou_peak_rate": false,
+      "hourly_cost_tou": 0.0546
+    },
+    {
+      "timestamp": "2010-11-27 02:00:00",
+      "hour": 2,
+      "forecast_kwh": 0.4395,
+      "is_peak_demand": false,
+      "is_tou_peak_rate": false,
+      "hourly_cost_tou": 0.0527
+    },
+    {
+      "timestamp": "2010-11-27 03:00:00",
+      "hour": 3,
+      "forecast_kwh": 0.4395,
+      "is_peak_demand": false,
+      "is_tou_peak_rate": false,
+      "hourly_cost_tou": 0.0527
+    },
+    {
+      "timestamp": "2010-11-27 04:00:00",
+      "hour": 4,
+      "forecast_kwh": 0.4632,
+      "is_peak_demand": false,
+      "is_tou_peak_rate": false,
+      "hourly_cost_tou": 0.0556
+    },
+    {
+      "timestamp": "2010-11-27 05:00:00",
+      "hour": 5,
+      "forecast_kwh": 0.5208,
+      "is_peak_demand": false,
+      "is_tou_peak_rate": false,
+      "hourly_cost_tou": 0.0625
+    },
+    {
+      "timestamp": "2010-11-27 06:00:00",
+      "hour": 6,
+      "forecast_kwh": 1.0801,
+      "is_peak_demand": false,
+      "is_tou_peak_rate": false,
+      "hourly_cost_tou": 0.1296
+    },
+    {
+      "timestamp": "2010-11-27 07:00:00",
+      "hour": 7,
+      "forecast_kwh": 2.2677,
+      "is_peak_demand": true,
+      "is_tou_peak_rate": false,
+      "hourly_cost_tou": 0.2721
+    },
+    {
+      "timestamp": "2010-11-27 08:00:00",
+      "hour": 8,
+      "forecast_kwh": 1.9425,
+      "is_peak_demand": false,
+      "is_tou_peak_rate": false,
+      "hourly_cost_tou": 0.2331
+    },
+    {
+      "timestamp": "2010-11-27 09:00:00",
+      "hour": 9,
+      "forecast_kwh": 1.8385,
+      "is_peak_demand": false,
+      "is_tou_peak_rate": false,
+      "hourly_cost_tou": 0.2206
+    },
+    {
+      "timestamp": "2010-11-27 10:00:00",
+      "hour": 10,
+      "forecast_kwh": 1.7971,
+      "is_peak_demand": false,
+      "is_tou_peak_rate": false,
+      "hourly_cost_tou": 0.2157
+    },
+    {
+      "timestamp": "2010-11-27 11:00:00",
+      "hour": 11,
+      "forecast_kwh": 1.9665,
+      "is_peak_demand": false,
+      "is_tou_peak_rate": false,
+      "hourly_cost_tou": 0.236
+    },
+    {
+      "timestamp": "2010-11-27 12:00:00",
+      "hour": 12,
+      "forecast_kwh": 1.8386,
+      "is_peak_demand": false,
+      "is_tou_peak_rate": false,
+      "hourly_cost_tou": 0.2206
+    },
+    {
+      "timestamp": "2010-11-27 13:00:00",
+      "hour": 13,
+      "forecast_kwh": 1.8413,
+      "is_peak_demand": false,
+      "is_tou_peak_rate": false,
+      "hourly_cost_tou": 0.221
+    },
+    {
+      "timestamp": "2010-11-27 14:00:00",
+      "hour": 14,
+      "forecast_kwh": 1.7626,
+      "is_peak_demand": false,
+      "is_tou_peak_rate": false,
+      "hourly_cost_tou": 0.2115
+    },
+    {
+      "timestamp": "2010-11-27 15:00:00",
+      "hour": 15,
+      "forecast_kwh": 1.6994,
+      "is_peak_demand": false,
+      "is_tou_peak_rate": false,
+      "hourly_cost_tou": 0.2039
+    },
+    {
+      "timestamp": "2010-11-27 16:00:00",
+      "hour": 16,
+      "forecast_kwh": 1.6567,
+      "is_peak_demand": false,
+      "is_tou_peak_rate": false,
+      "hourly_cost_tou": 0.1988
+    },
+    {
+      "timestamp": "2010-11-27 17:00:00",
+      "hour": 17,
+      "forecast_kwh": 1.87,
+      "is_peak_demand": false,
+      "is_tou_peak_rate": true,
+      "hourly_cost_tou": 0.5236
+    },
+    {
+      "timestamp": "2010-11-27 18:00:00",
+      "hour": 18,
+      "forecast_kwh": 2.575,
+      "is_peak_demand": true,
+      "is_tou_peak_rate": true,
+      "hourly_cost_tou": 0.721
+    },
+    {
+      "timestamp": "2010-11-27 19:00:00",
+      "hour": 19,
+      "forecast_kwh": 2.7192,
+      "is_peak_demand": true,
+      "is_tou_peak_rate": true,
+      "hourly_cost_tou": 0.7614
+    },
+    {
+      "timestamp": "2010-11-27 20:00:00",
+      "hour": 20,
+      "forecast_kwh": 2.7648,
+      "is_peak_demand": true,
+      "is_tou_peak_rate": true,
+      "hourly_cost_tou": 0.7741
+    },
+    {
+      "timestamp": "2010-11-27 21:00:00",
+      "hour": 21,
+      "forecast_kwh": 2.479,
+      "is_peak_demand": true,
+      "is_tou_peak_rate": true,
+      "hourly_cost_tou": 0.6941
+    }
+  ],
+  "disclaimer_and_limitations": "This scenario is a synthetic virtual planning demonstration using user-configured tariff rates and carbon intensity factors. It does not represent an actual utility bill, a physical smart grid connection, or guaranteed financial/energy savings."
+}

@@ -1,0 +1,31 @@
+{
+  "status": "SUCCESS",
+  "dataset_name": "Individual Household Electric Power Consumption",
+  "target_variable": "energy_kwh",
+  "target_units": "kWh",
+  "power_raw_units": "kW",
+  "cleaning_statistics": {
+    "raw_row_count": 2075259,
+    "invalid_timestamp_count": 0,
+    "raw_missing_active_power_count": 25979,
+    "raw_missing_active_power_pct": 1.252,
+    "duplicate_timestamp_count": 0,
+    "negative_power_count": 0,
+    "date_range_start": "2006-12-16 17:24:00",
+    "date_range_end": "2010-11-26 21:02:00"
+  },
+  "resampling_statistics": {
+    "total_hourly_periods": 34589,
+    "valid_hourly_observations": 34147,
+    "insufficient_coverage_hours": 442,
+    "coverage_retention_pct": 98.72,
+    "imputed_isolated_hours": 25,
+    "remaining_missing_hours": 417,
+    "final_processed_hourly_rows": 34172,
+    "dropped_unfillable_hours": 417,
+    "target_min_kwh": 0.124,
+    "target_max_kwh": 6.5605,
+    "target_mean_kwh": 1.0915,
+    "target_std_kwh": 0.8976
+  }
+}
